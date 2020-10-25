@@ -1,5 +1,1 @@
-const division = (a, b) => {
-   return (a / b);
-}
-
-console.log(division(4, 2));
+const division = (a, b) => a % b;
