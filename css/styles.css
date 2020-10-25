@@ -1,0 +1,28 @@
+
+.body {
+    background: #ebebeb;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.error {
+    border: 1px solid darkred;
+    padding: 1rem;
+    color: darkred;
+    background: rgba(255, 0, 0, 0.1);
+}
+
+.loader {
+    float: center;
+    border: 10px solid #E8E8E8;
+    border-radius: 50%;
+    border-top: 10px solid #A7C64D;
+    width: 90px;
+    height: 90px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
